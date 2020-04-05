@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: yellow;
+
+    @media screen and (max-width: 1024px){
+        background-color: blue;
+    }
+    @media screen and (max-width: 800px){
+        background-color: red;
+    }
+    
+}
